@@ -5,3 +5,4 @@
 # to bootloader boot reason to allow test to inject reasons
 on property:persist.test.boot.reason=*
     setprop ro.boot.bootreason ${persist.test.boot.reason}
+
